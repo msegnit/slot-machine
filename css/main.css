@@ -1,0 +1,65 @@
+html {
+	background-image:
+	  url("https://i.imgur.com/VuwgV1X.jpg");
+	background-size: absolute;
+	
+}
+
+h1 {
+    font-family: 'Modak', cursive;
+    font-size: 135px;
+	color:pink;
+	text-align: center;
+	margin: auto;
+	
+}
+
+h2 {
+    font-family: 'Modak', cursive;
+    font-size: 100px;
+	color:pink;
+	text-align: center;
+}
+
+
+#slots_container {
+	display: flex;
+	align-self: center;
+    padding:10px;
+    margin:50px;
+	width:50px
+	height: 10px;
+}
+.slots {
+	font-size:100px;
+	font-family: 'Modak', cursive;
+	width:200px;
+	height:200px;
+    border:10px solid pink;
+    border-radius: 40px;
+	float: center;
+	vertical-align: right;
+	background-color:white;
+}
+.slots .wrapper{
+	margin-top:-6px;
+	width:100px;
+}
+.slots .slot{
+	width:200px;
+	height:200px;
+	text-align:center;
+
+}
+
+button {
+    font-family: 'Modak', cursive;
+    font-size: 40px;
+    color:pink;
+    margin-top: 50px;
+    padding: 10px;
+    background-color:white; 
+    border-radius: 50px;
+
+    
+}
