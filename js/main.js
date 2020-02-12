@@ -2,7 +2,9 @@
 var pusheens = ['images/birthdaypusheen.png', 'images/pusheennoods.png', 'images/unicornpusheen.png']
 
 /*-----variables-------*/
+
 let meow = new Audio ('sounds/meow.mp3');
+let angry = new Audio ('sounds/angrycat.aiff');
 
 /*----- cached element references -----*/
 
@@ -14,8 +16,6 @@ let message = document.getElementById('message');
 /*----- event listeners -----*/
 
 let spin = document.getElementById('button').addEventListener('click', handleSpin)
-
-
 
 /*----- functions -----*/
 
@@ -29,10 +29,12 @@ function handleSpin() {
    meow.play();
 }
 
+
 function catWinner() {
     if (img1.src === img2.src && img3.src === img1.src){
         message.textContent = `Winner!`
+        setTimeout(angry.play(), 1000);
+
     }
-        render();
     
 }

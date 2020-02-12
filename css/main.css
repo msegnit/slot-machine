@@ -2,7 +2,6 @@ html {
 	background-image:
 	  url("https://i.imgur.com/VuwgV1X.jpg");
 	background-size: absolute;
-	
 }
 
 h1 {
@@ -11,7 +10,6 @@ h1 {
 	color:#f298aa;
 	text-align: center;
 	margin: auto;
-	
 }
 
 h2 {
@@ -20,7 +18,6 @@ h2 {
 	color:#f298aa;
 	text-align: center;
 }
-
 
 #slots_container {
 	display: flex;
@@ -43,15 +40,16 @@ h2 {
 	background-color:#f298aa;
 	margin: 0 80px 0 80px;
 }
+
 .slots .wrapper{
 	margin-top: 100px;
 	width:100px;
 }
+
 .slots .slot{
 	width:200px;
 	height:200px;
 	text-align:center;
-
 }
 
 button {
