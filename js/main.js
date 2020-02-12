@@ -25,11 +25,12 @@ function handleSpin() {
    img2.src= pusheens[idx2];
    let idx3 = Math.floor(Math.random() * Math.floor(pusheens.length -1)); 
    img3.src= pusheens[idx3];
+   catWinner();
 }
 
 function catWinner() {
     if (img1.src === img2.src && img3.src === img1.src){
-        message.textContent = `Winner! Winner!`
+        message.textContent = `WINNER!`
     }
     
 }

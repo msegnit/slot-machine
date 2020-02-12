@@ -8,7 +8,7 @@ html {
 h1 {
     font-family: 'Modak', cursive;
     font-size: 135px;
-	color:pink;
+	color: #f298aa;
 	text-align: center;
 	margin: auto;
 	
@@ -17,7 +17,7 @@ h1 {
 h2 {
     font-family: 'Modak', cursive;
     font-size: 100px;
-	color:pink;
+	color:#f298aa;
 	text-align: center;
 }
 
@@ -27,8 +27,8 @@ h2 {
 	align-self: center;
     padding:10px;
     margin:50px;
-	width:50px
-	height: 10px;
+	width:50px;
+	height: 150px;
 }
 .slots {
 	font-size:100px;
@@ -36,10 +36,10 @@ h2 {
 	width:200px;
 	height:200px;
     border:10px solid pink;
-    border-radius: 40px;
+    border-radius: 50px;
 	float: center;
-	vertical-align: right;
-	background-color:white;
+	background-color:pink;
+	margin: 0px 80px 0px 80px;
 }
 .slots .wrapper{
 	margin-top:-6px;
@@ -55,10 +55,10 @@ h2 {
 button {
     font-family: 'Modak', cursive;
     font-size: 40px;
-    color:pink;
+    color:#f298aa;
     margin-top: 50px;
     padding: 10px;
-    background-color:white; 
+    background-color: #c4efdc; 
     border-radius: 50px;
 
     
