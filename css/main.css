@@ -8,7 +8,7 @@ html {
 h1 {
     font-family: 'Modak', cursive;
     font-size: 135px;
-	color:pink;
+	color:#f298aa;
 	text-align: center;
 	margin: auto;
 	
@@ -17,7 +17,7 @@ h1 {
 h2 {
     font-family: 'Modak', cursive;
     font-size: 100px;
-	color:pink;
+	color:#f298aa;
 	text-align: center;
 }
 
@@ -25,11 +25,12 @@ h2 {
 #slots_container {
 	display: flex;
 	align-self: center;
-    padding:10px;
-    margin:50px;
-	width:50px
-	height: 10px;
+    padding: 10px;
+    margin: 100px;
+	width: 50px;
+	height: 100px;
 }
+
 .slots {
 	font-size:100px;
 	font-family: 'Modak', cursive;
@@ -39,10 +40,11 @@ h2 {
     border-radius: 40px;
 	float: center;
 	vertical-align: right;
-	background-color:white;
+	background-color:#f298aa;
+	margin: 0 80px 0 80px;
 }
 .slots .wrapper{
-	margin-top:-6px;
+	margin-top: 100px;
 	width:100px;
 }
 .slots .slot{
@@ -55,11 +57,11 @@ h2 {
 button {
     font-family: 'Modak', cursive;
     font-size: 40px;
-    color:pink;
-    margin-top: 50px;
+    color:#f298aa;
+    margin-top: 300px;
     padding: 10px;
-    background-color:white; 
-    border-radius: 50px;
+    background-color:#c4efdc; 
+	border-radius: 50px;
+	border:10px solid #f298aa;
 
-    
 }

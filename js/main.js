@@ -2,7 +2,6 @@
 var pusheens = ['images/birthdaypusheen.png', 'images/pusheennoods.png', 'images/unicornpusheen.png']
 
 
-/*----- app's state (variables) -----*/
 /*----- cached element references -----*/
 
 let img1 = document.getElementById('1');
@@ -29,7 +28,8 @@ function handleSpin() {
 
 function catWinner() {
     if (img1.src === img2.src && img3.src === img1.src){
-        message.textContent = `Winner! Winner!`
+        message.textContent = `Winner!`
     }
+        render();
     
 }
