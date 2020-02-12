@@ -13,10 +13,23 @@ Pusheen is a tubby tabby cat who brings smiles and laughter to everyone she enco
 * FreeSound.org
 * Pusheen.com
 * Imgur.com
+  
+  
+  
+  **Wireframe:**
+![alt text](https://i.imgur.com/wbUOoY0.png)
 
 **Here's a link to the game:** https://msegnit.github.io/slot-machine/
 
 ![alt text](https://i.imgur.com/pSdoqgy.png)
+How to play is really easy! Just click the spin button to try and get 3 of the same Pusheens in a row! Jackpot!!
+
+**The Future of the Pusheen Machine**
+
+Some features we'd like to add in the future include:
+*
+
+
 
 
 
