@@ -3,7 +3,7 @@
 
 Welcome to the wonderful world of Pusheen! Who is Pusheen, you may ask...
 
-Pusheen is a tubby tabby cat who brings smiles and laughter to everyone she encounters. She has nine lives and her best feature is that her toes look like beans.  
+Pusheen is a tubby tabby cat who brings smiles and laughter to everyone she encounters. She has nine lives and her best feature is that her toes look like beans. The Pusheen Machine is sure to bring joy to anyone who plays! 
 
 
 **Technologies Used:**
