@@ -1,6 +1,8 @@
 /*----- constants -----*/
 var pusheens = ['images/birthdaypusheen.png', 'images/pusheennoods.png', 'images/unicornpusheen.png']
 
+/*-----variables-------*/
+let meow = new Audio ('sounds/meow.mp3');
 
 /*----- cached element references -----*/
 
@@ -24,6 +26,7 @@ function handleSpin() {
    img2.src= pusheens[idx2];
    let idx3 = Math.floor(Math.random() * Math.floor(pusheens.length -1)); 
    img3.src= pusheens[idx3];
+   meow.play();
 }
 
 function catWinner() {
