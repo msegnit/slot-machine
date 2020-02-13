@@ -1,8 +1,10 @@
 /*----- constants -----*/
 var pusheens = ['images/birthdaypusheen.png', 'images/pusheennoods.png', 'images/unicornpusheen.png']
 
+/*-----variables-------*/
 
-/*----- app's state (variables) -----*/
+let meow = new Audio ('sounds/meow.mp3');
+
 /*----- cached element references -----*/
 
 let img1 = document.getElementById('1');
@@ -14,8 +16,6 @@ let message = document.getElementById('message');
 
 let spin = document.getElementById('button').addEventListener('click', handleSpin)
 
-
-
 /*----- functions -----*/
 
 function handleSpin() {
@@ -25,12 +25,15 @@ function handleSpin() {
    img2.src= pusheens[idx2];
    let idx3 = Math.floor(Math.random() * Math.floor(pusheens.length -1)); 
    img3.src= pusheens[idx3];
+   meow.play();
    catWinner();
 }
 
+
 function catWinner() {
     if (img1.src === img2.src && img3.src === img1.src){
-        message.textContent = `WINNER!`
+        message.textContent = `Winner!`
+
     }
     
 }

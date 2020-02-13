@@ -2,16 +2,14 @@ html {
 	background-image:
 	  url("https://i.imgur.com/VuwgV1X.jpg");
 	background-size: absolute;
-	
 }
 
 h1 {
     font-family: 'Modak', cursive;
     font-size: 135px;
-	color: #f298aa;
+	color:#f298aa;
 	text-align: center;
 	margin: auto;
-	
 }
 
 h2 {
@@ -21,15 +19,15 @@ h2 {
 	text-align: center;
 }
 
-
 #slots_container {
 	display: flex;
 	align-self: center;
-    padding:10px;
-    margin:50px;
-	width:50px;
-	height: 150px;
+    padding: 10px;
+    margin: 100px;
+	width: 50px;
+	height: 100px;
 }
+
 .slots {
 	font-size:100px;
 	font-family: 'Modak', cursive;
@@ -38,24 +36,27 @@ h2 {
     border:10px solid pink;
     border-radius: 50px;
 	float: center;
-	background-color:pink;
-	margin: 0px 80px 0px 80px;
+	vertical-align: right;
+	background-color:#f298aa;
+	margin: 0 80px 0 80px;
 }
+
 .slots .wrapper{
-	margin-top:-6px;
+	margin-top: 100px;
 	width:100px;
 }
+
 .slots .slot{
 	width:200px;
 	height:200px;
 	text-align:center;
-
 }
 
 button {
     font-family: 'Modak', cursive;
     font-size: 40px;
     color:#f298aa;
+<<<<<<< HEAD
     margin-top: 50px;
     padding: 10px;
     background-color: #c4efdc; 
@@ -63,3 +64,12 @@ button {
 
     
 }
+=======
+    margin-top: 300px;
+    padding: 10px;
+    background-color:#c4efdc; 
+	border-radius: 50px;
+	border:10px solid #f298aa;
+
+}
+>>>>>>> master
