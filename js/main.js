@@ -4,7 +4,6 @@ var pusheens = ['images/birthdaypusheen.png', 'images/pusheennoods.png', 'images
 /*-----variables-------*/
 
 let meow = new Audio ('sounds/meow.mp3');
-let angry = new Audio ('sounds/angrycat.aiff');
 
 /*----- cached element references -----*/
 
@@ -34,7 +33,6 @@ function handleSpin() {
 function catWinner() {
     if (img1.src === img2.src && img3.src === img1.src){
         message.textContent = `Winner!`
-        angry.play()
 
     }
     
