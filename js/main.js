@@ -27,13 +27,14 @@ function handleSpin() {
    let idx3 = Math.floor(Math.random() * Math.floor(pusheens.length -1)); 
    img3.src= pusheens[idx3];
    meow.play();
+   catWinner();
 }
 
 
 function catWinner() {
     if (img1.src === img2.src && img3.src === img1.src){
         message.textContent = `Winner!`
-        setTimeout(angry.play(), 1000);
+        angry.play()
 
     }
     
