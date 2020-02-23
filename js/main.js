@@ -25,6 +25,7 @@ function handleSpin() {
    img2.src= pusheens[idx2];
    let idx3 = Math.floor(Math.random() * Math.floor(pusheens.length -1)); 
    img3.src= pusheens[idx3];
+    message.textContent = `You Lose! Spin Again!`
    meow.play();
    catWinner();
 }
