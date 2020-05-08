@@ -1,8 +1,7 @@
 html {
 	background-image:
 	  url("https://i.imgur.com/VuwgV1X.jpg");
-	background-size: absolute;
-	background-position: cover;
+	position: cover;
 }
 
 h1 {
@@ -11,6 +10,9 @@ h1 {
 	color:#f298aa;
 	text-align: center;
 	margin: auto;
+	background-color:#c4efdc; 
+	border-radius: 50px;
+	border:10px solid #f298aa;
 }
 
 h2 {
