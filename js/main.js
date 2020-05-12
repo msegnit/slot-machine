@@ -1,5 +1,5 @@
 /*----- constants -----*/
-var pusheens = ['images/birthdaypusheen.png', 'images/pusheennoods.png', 'images/unicornpusheen.png', 'images/pusheendonut.png', 'images/pusheenmotorcyle.png']
+const pusheens = ['images/birthdaypusheen.png', 'images/pusheennoods.png', 'images/unicornpusheen.png', 'images/pusheendonut.png', 'images/pusheenmotorcyle.png']
 
 /*-----variables-------*/
 
